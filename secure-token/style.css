@@ -1,0 +1,53 @@
+.stoken-form{
+  margin: 100px auto;
+  width: 400px;
+text-align:center;}
+
+@media screen and (max-width:756px){
+.stoken-form{
+    width: 80%;
+}
+}
+
+
+.stoken-form h1{
+
+  font-weight:400;
+  font-size:3.5em;
+}
+
+.stoken-form .blue{
+  color:#2980b9;
+  font-weight:600;
+}
+
+
+.stoken-form .logged-out{
+color:red;
+}
+
+.stoken-form .token-send{
+color:green;
+}
+
+
+.stoken-form form{
+text-align: center;
+}
+
+.stoken-form input[type=email]{
+  padding: 10px 20px;
+
+width:100%;}
+
+.stoken-form input[type=submit]{
+  width:100%;
+  background:#2980b9;
+  color:white;
+  padding: 10px 20px;
+border: none;
+}
+
+.dbapr{
+margin:10px 0;
+}
